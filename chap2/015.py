@@ -4,7 +4,7 @@ import sys
 args = sys.argv
 tab_c = 0
 args[1] = int(args[1])
-f = open('hightemp.txt', 'r')
+f = open('hightemp.txt', 'r', encoding ='utf-8')
 text = f.read()
 count = text.count('\n')
 for moji in text:

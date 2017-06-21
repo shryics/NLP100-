@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import sys
 
-f1 = open('col1.txt', 'r')
-f2 = open('col2.txt', 'r')
-f3 = open('col3.txt', 'w')
+f1 = open('col1.txt', 'r',encoding ='utf-8')
+f2 = open('col2.txt', 'r',encoding ='utf-8')
+f3 = open('col3.txt', 'w',encoding ='utf-8')
 text1 = f1.read()
 text2 = f2.read()
 
@@ -24,7 +24,7 @@ for moji in text1:
             i = i + 1
             if i > j:
                 if moji2 == '\n':
-                    print ''
+                    print ('')
                     f3.write(moji2)
                     j = i
                     break

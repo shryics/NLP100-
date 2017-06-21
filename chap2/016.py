@@ -5,7 +5,7 @@ args = sys.argv
 tab_c = 0
 count = 0
 args[1] = int(args[1])
-f = open('hightemp.txt', 'r')
+f = open('hightemp.txt', 'r', encoding ='utf-8')
 text = f.read()
 cut = text.count('\n') / args[1]
 
@@ -16,6 +16,6 @@ for moji in text:
         print ('-----------------------------------')
         count = 0
     if moji == '\n':
-        print ''
+        print ('')
         count = count + 1
 #print text.count('\n'), text.count('\n') / 11

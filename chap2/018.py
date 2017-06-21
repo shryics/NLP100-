@@ -5,7 +5,7 @@ i = 0
 count = 0
 st = ''
 lis = []
-f = open('hightemp.txt', 'r')
+f = open('hightemp.txt', 'r', encoding ='utf-8')
 text = f.read()
 f.close()
 

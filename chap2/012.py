@@ -2,9 +2,9 @@
 import sys
 tab_count = 0
 switch = 0
-f = open('hightemp.txt')
-f1 = open('col1.txt', 'w')
-f2 = open('col2.txt', 'w')
+f = open('hightemp.txt', encoding ='utf-8')
+f1 = open('col1.txt', 'w',encoding ='utf-8')
+f2 = open('col2.txt', 'w',encoding ='utf-8')
 text = f.read()
 f.close()
 for moji in text:

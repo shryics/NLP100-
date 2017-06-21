@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import sys
 n = 0
-f = open('hightemp.txt')
-f2 = open ('hightemp011.txt', 'w')
+f = open('hightemp.txt' ,encoding ='utf-8')
+f2 = open ('hightemp011.txt', 'w', encoding ='utf-8')
 text = f.read()
 f.close()
 
